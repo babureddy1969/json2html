@@ -1,0 +1,125 @@
+{"fields": [
+      {
+        "field_type": "label",
+        "name": "Address",
+        "value": "Address*",
+        "width":"600px",
+        "height":"40px",
+        "pos": {
+          "x": "30px",
+          "y": "10px"
+        },
+        "mandatory": true
+      },
+      {
+          "field_type": "textbox",
+          "placeholder": "Enter address",
+          "width":"600px",
+          "height":"40px",
+          "pos": {
+            "x": "30px",
+            "y": "30px"
+          },
+          "mandatory": true
+        },
+        {
+          "field_type": "textbox",
+          "placeholder": "Enter your email",
+          "width":"300px",
+          "height":"40px",
+          "pos": {
+            "x": "30px",
+            "y": "90px"
+          },
+          "mandatory": true
+        },
+        {
+          "field_type": "date",
+          "format": "DD/MM/YYYY",
+          "placeholder": "Date (in DD/MM/YYYY)",
+          "width":"300px",
+          "height":"42px",
+          "pos": {
+            "x": "340px",
+            "y": "90px"
+          },
+          "mandatory": true
+        },
+        {
+          "field_type": "drop_down",
+          "selection": "multiple",
+          "placeholder": "dropdown",
+          "options": [{"value":"1","name":"test 1"},
+          {"value":"2","name":"test 2"}],
+          "width":"300px",
+          "height":"40px",
+          "pos": {
+            "x": "30px",
+            "y": "150px"
+          },
+          "mandatory": false
+        },
+        {
+          "field_name": "Checkbox",
+          "id":"COMM",
+          "field_type": "checkbox",
+          "selection": "multiple",
+          "options": [{"value":"Email","name":"Email","x":"30px","y":"220px","x1":"70px","y1":"220px"},
+          {"value":"SMS","name":"SMS","x":"30px","y":"240px","x1":"70px","y1":"240px"},
+          {"value":"Phone","name":"Phone","x":"30px","y":"260px","x1":"70px","y1":"260px"}],
+          "width":"100px",
+          "height":"40px",
+          "pos": {
+            "x": "30px",
+            "y": "200px"
+          },
+          "mandatory": false
+        },
+        {
+          "id":"Gender",
+          "field_type": "radio",
+          "options": [{"id":"male","value":"Male","name":"Male","x":"30px","y":"300px","x1":"70px","y1":"300px"},
+          {"id":"female","value":"Female","name":"Female","x":"30px","y":"320px","x1":"70px","y1":"320px"}],
+          "mandatory": false
+        },
+        {
+          "id" : "desc",
+          "field_type": "textarea",
+          "placeholder": "Enter Description",
+          "width":"600px",
+          "height":"40px",
+          "rows":"5",
+          "pos": {
+            "x": "30px",
+            "y": "350px"
+          },
+          "mandatory": true
+        },
+          {
+          "id" : "attachment",
+          "field_type": "upload",
+          "file_type":"image/*",
+          "width":"600px",
+          "height":"80px",
+          "width1":"600px",
+          "height1":"40px",
+          "pos": {
+            "x": "30px",
+            "y": "430px",
+            "x1": "250px",
+            "y1": "475px"
+          },
+          "mandatory": true
+        },
+        {
+          "id":"Submit",
+          "field_type": "submit",
+          "width":"100px",
+          "height":"40px",
+          "pos": {
+            "x": "30px",
+            "y": "550px"
+          },
+          "mandatory": false
+        }
+]}
